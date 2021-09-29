@@ -4,9 +4,9 @@ using System.Text;
 
 namespace gitlearn
 {
-    class Logic
+    public class Logic
     {
-        public int PowerOf2(int a)
+        public static int PowerOf2(int a)
         {
             return a * a;
         }
