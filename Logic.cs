@@ -6,7 +6,8 @@ namespace gitlearn
 {
     public class Logic
     {
-        public static int PowerOf2(int a)
+        public static int Power(int a,int p)
+
         {
             return (int)Math.Pow(a,p);
         }
